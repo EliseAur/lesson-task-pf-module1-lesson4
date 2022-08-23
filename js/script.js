@@ -11,9 +11,15 @@ for (var i = 0; i <= 7; i++) {
 // Question 2
 // Write a loop that logs the numbers 10 to 1. Count down from 10 to 1.
 
-for (var b = 10; b >= 1; b--) {
-    console.log(b);
+for (var i = 10; i >= 1; i--) {
+    console.log(i);
 }
 
 // Question 3
 // Write a loop that counts from 10 to 20, and log only the odd numbers. 11, 13, 15, etc
+
+for (var i = 10; i <= 20; i++) {
+    if (i % 2 !== 0) {
+        console.log(i);
+    }
+}
